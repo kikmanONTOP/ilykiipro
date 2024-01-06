@@ -34,7 +34,7 @@ new_channels_name = input("new channels name: ")
 
 async def send_message_periodically(channel):
     while True:
-        await channel.send("@everyone DOWNLOAD THIS TOOL https://github.com/kikmanONTOP/ilykiipro" + spam_message)
+        await channel.send("@everyone DOWNLOAD THIS TOOL https://github.com/kikmanONTOP/ilykiipro " + spam_message)
         await asyncio.sleep(0)
         print(Fore.GREEN + "spammed:", channel.name)
 
